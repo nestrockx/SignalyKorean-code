@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_writing">
+
+    <fragment
+        android:id="@+id/navigation_writing"
+        android:name="com.onehundredtwo.signaly.ui.writing.WritingFragment"
+        android:label="@string/bar_title_writing"
+        tools:layout="@layout/fragment_writing">
+        <action
+            android:id="@+id/action_to_writingFragment" />
+        <action
+            android:id="@+id/action_to_pronunciationFragment"
+            app:destination="@id/navigation_pronunciation"
+            app:popUpTo="@id/navigation_writing"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_to_settingsFragment"
+            app:destination="@id/navigation_settings"
+            app:popUpTo="@id/navigation_writing"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_pronunciation"
+        android:name="com.onehundredtwo.signaly.ui.pronunciation.PronunciationFragment"
+        android:label="@string/bar_title_pronunciation"
+        tools:layout="@layout/fragment_pronunciation" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.onehundredtwo.signaly.ui.settings.SettingsFragment"
+        android:label="@string/bar_title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+
+</navigation>

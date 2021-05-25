@@ -1,0 +1,634 @@
+<resources>
+    <string name="version">Beta version\n(more content in the next update :)</string>
+    <string name="app_name" translatable="false">Signaly kr (beta)</string>
+    <string name="title_writing" translatable="false">한글</string>
+    <string name="title_pronunciation" translatable="false">발음</string>
+    <string name="title_settings" translatable="false">설정</string>
+    <string name="bar_title_writing">Writing</string>
+    <string name="bar_title_pronunciation">Pronunciation</string>
+    <string name="bar_title_settings">Settings</string>
+    <string name="consonants">Consonants</string>
+    <string name="vowels">Vowels</string>
+    <string name="syllables">Syllables</string>
+    <string name="history">Little bit of history</string>
+    
+    <string name="greetings">Greetings</string>
+    <string name="numbers">Numbers</string>
+    <string name="countries">Countries</string>
+    <string name="family">Family</string>
+    <string name="colors">Colors</string>
+    <string name="animals">Animals</string>
+    <string name="food">Food</string>
+    
+    <string name="pronunciation_mic_label">Click and say…</string>
+    <string name="general">General</string>
+    <string name="language">Language</string>
+    <string name="default_language">en</string>
+    <string name="about">About</string>
+    <string name="licenses">Licenses</string>
+
+    <string name="error_network_timeout">Network timeout</string>
+    <string name="error_network">This feature requires internet connection</string>
+    <string name="error_audio">Audio error</string>
+    <string name="error_server">Server error</string>
+    <string name="error_client">Client error</string>
+    <string name="error_speech_timeout">Speech timeout</string>
+    <string name="error_recognizer_busy">Busy recognizer</string>
+    <string name="error_insufficient_permissions">Insufficient permissions</string>
+
+
+
+
+
+
+    <string name="vector_master_license" translatable="false">Copyright 2016-17 Harjot Singh Oberai\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+    <string name="pronunciation_icon_attribution" translatable="false">Icon made by Chanut from www.flaticon.com</string>
+
+    <string name="single">Single</string>
+    <string name="doubleStr">Double</string>
+    <string name="complex">Complex</string>
+
+    <string name="learn_uppercase">></string>
+
+    <string name="hanja_label">Chinese characters\nHanja</string>
+    <string name="hanja" translatable="false">Hanja</string>
+
+    <string name="hangul" translatable="false">Hangul</string>
+
+    <string name="hanja1">1.</string>
+    <string name="hanja2">2.</string>
+    <string name="hanja3">3.Numbers</string>
+
+    <string name="korean_numbers">Native korean</string>
+
+    <string-array name="consonants_single">
+        <item>ㄱ;g</item>
+        <item>ㄴ;n</item>
+        <item>ㄷ;d</item>
+        <item>ㄹ;r</item>
+        <item>ㅁ;m</item>
+        <item>ㅂ;b</item>
+        <item>ㅅ;s</item>
+        <item>ㅇ;ng</item>
+        <item>ㅈ;j</item>
+        <item>ㅊ;ch</item>
+        <item>ㅋ;k</item>
+        <item>ㅌ;t</item>
+        <item>ㅍ;p</item>
+        <item>ㅎ;h</item>
+    </string-array>
+
+    <string-array name="consonants_single_ID">
+        <item>G</item>
+        <item>N</item>
+        <item>D</item>
+        <item>R</item>
+        <item>M</item>
+        <item>B</item>
+        <item>S</item>
+        <item>NG</item>
+        <item>J</item>
+        <item>CH</item>
+        <item>K</item>
+        <item>T</item>
+        <item>P</item>
+        <item>H</item>
+    </string-array>
+
+    <string-array name="consonants_double">
+        <item>ㄲ;kk</item>
+        <item>ㄸ;tt</item>
+        <item>ㅃ;pp</item>
+        <item>ㅆ;ss</item>
+        <item>ㅉ;jj</item>
+    </string-array>
+
+    <string-array name="consonants_double_ID">
+        <item>KK</item>
+        <item>TT</item>
+        <item>PP</item>
+        <item>SS</item>
+        <item>JJ</item>
+    </string-array>
+
+    <string-array name="vowels_single">
+        <item>ㅏ;a</item>
+        <item>ㅑ;ya</item>
+        <item>ㅓ;eo</item>
+        <item>ㅕ;yeo</item>
+        <item>ㅗ;o</item>
+        <item>ㅛ;yo</item>
+        <item>ㅜ;u</item>
+        <item>ㅠ;yu</item>
+        <item>ㅡ;eu</item>
+        <item>ㅣ;i</item>
+    </string-array>
+
+    <string-array name="vowels_single_ID">
+        <item>A</item>
+        <item>YA</item>
+        <item>EO</item>
+        <item>YEO</item>
+        <item>O</item>
+        <item>YO</item>
+        <item>U</item>
+        <item>YU</item>
+        <item>EU</item>
+        <item>I</item>
+    </string-array>
+
+    <string-array name="vowels_complex">
+        <item>ㅐ;ae</item>
+        <item>ㅒ;yae</item>
+        <item>ㅔ;e</item>
+        <item>ㅖ;ye</item>
+        <item>ㅘ;wa</item>
+        <item>ㅙ;wae</item>
+        <item>ㅚ;oe</item>
+        <item>ㅝ;weo</item>
+        <item>ㅞ;we</item>
+        <item>ㅟ;wi</item>
+        <item>ㅢ;ui</item>
+    </string-array>
+
+    <string-array name="vowels_complex_ID">
+        <item>AE</item>
+        <item>YAE</item>
+        <item>E</item>
+        <item>YE</item>
+        <item>WA</item>
+        <item>WAE</item>
+        <item>OE</item>
+        <item>WEO</item>
+        <item>WE</item>
+        <item>WI</item>
+        <item>UI</item>
+    </string-array>
+
+    <string-array name="syllables1">
+        <item>소;so</item>
+        <item>개;gae</item>
+        <item>말;mal</item>
+        <item>닭;dalk</item>
+        <item>새;sae</item>
+        <item>곰;gom</item>
+        <item>뱀;baem</item>
+        <item>게;ge</item>
+    </string-array>
+
+    <string-array name="syllables1_ID">
+        <item>S;O</item>
+        <item>G_con;AE</item>
+        <item>M;A;R</item>
+        <item>D;A;R;G</item>
+        <item>S;AE</item>
+        <item>G;O;M</item>
+        <item>B;AE;M</item>
+        <item>G_con;E</item>
+    </string-array>
+
+    <string-array name="syllables2">
+        <item>아;a</item>
+        <item>애;ae</item>
+        <item>어;eo</item>
+        <item>에;e</item>
+        <item>예;ye</item>
+        <item>와;wa</item>
+        <item>워;weo</item>
+        <item>이;i</item>
+    </string-array>
+
+    <string-array name="syllables2_ID">
+        <item>NG;A</item>
+        <item>NG;AE</item>
+        <item>NG;EO</item>
+        <item>NG;E</item>
+        <item>NG;YE</item>
+        <item>NG;WA</item>
+        <item>NG;WEO</item>
+        <item>NG;I</item>
+    </string-array>
+
+
+    <string-array name="hanja1">
+        <item>大;대;big</item>
+        <item>小;소;small</item>
+        <item>中;중;middle</item>
+        <item>山;산;mountain</item>
+        <item>門;문;door</item>
+        <item>入;입;enter/entrance</item>
+        <item>出;출;exit/to exit</item>
+        <item>口;구;mouth/opening</item>
+        <item>上;상;above/high</item>
+        <item>下;하;underneath/below</item>
+    </string-array>
+
+    <string-array name="hanja2">
+        <item>日;일;day</item>
+        <item>月;월;month</item>
+        <item>年;년;year</item>
+        <item>内;내;inside</item>
+        <item>外;외;outside</item>
+        <item>人;인;person</item>
+        <item>子;자;child</item>
+        <item>父;부;father</item>
+        <item>母;모;mother</item>
+        <item>男;남;man/male</item>
+        <item>女;여/녀;woman/female</item>
+    </string-array>
+
+    <string-array name="hanja3">
+        <item>一;일;one</item>
+        <item>二;이;two</item>
+        <item>三;삼;three</item>
+        <item>四;사;four</item>
+        <item>五;오;five</item>
+        <item>六;육/륙;six</item>
+        <item>七;칠;seven</item>
+        <item>八;팔;eight</item>
+        <item>九;구;nine</item>
+        <item>十;십;ten</item>
+    </string-array>
+
+    <string name="action_transliteration">Transliteration</string>
+    <string name="korea" translatable="false">안녕하세요</string>
+    <string name="translation">hello/good morning</string>
+    <string name="slower">slower</string>
+    <string-array name="korean_words_1_array">
+        <item>안녕하세요</item>
+        <item>반갑습니다</item>
+        <item>감사합니다</item>
+        <item>밥 먹었어요</item>
+        <item>잠시만요</item>
+        <item>죄송합니다</item>
+        <item>미안합니다</item>
+        <item>주세요</item>
+        <item>많이 드세요</item>
+        <item>안녕히 계세요</item>
+        <item>안녕히 가세요</item>
+    </string-array>
+    <string-array name="match_words_1_array">
+        <item>안녕하세요</item>
+        <item>반갑습니다</item>
+        <item>감사합니다</item>
+        <item>밥 먹었어요</item>
+        <item>잠시만요</item>
+        <item>죄송합니다</item>
+        <item>미안합니다</item>
+        <item>주세요</item>
+        <item>많이 드세요</item>
+        <item>안녕히 계세요</item>
+        <item>안녕히 가세요</item>
+    </string-array>
+    <string-array name="transliterated_words_1_array">
+        <item>annyeonghaseyo</item>
+        <item>bangapseumnida</item>
+        <item>kamsahamnida</item>
+        <item>bap meogeosseoyo</item>
+        <item>jamshimanyo</item>
+        <item>chwayseonghamnida</item>
+        <item>mianhamnida</item>
+        <item>juseyo</item>
+        <item>manhee deuseyo</item>
+        <item>annyeonghi gyeseyo</item>
+        <item>annyeonghi kaseyo</item>
+    </string-array>
+    <string-array name="translated_words_1_array">
+        <item>Hello</item>
+        <item>Nice to meet you</item>
+        <item>Thank you</item>
+        <item>How are you</item>
+        <item>Excuse me/Just a moment</item>
+        <item>I’m sorry(accident)</item>
+        <item>I’m sorry(apology)</item>
+        <item>Please</item>
+        <item>Have a great meal</item>
+        <item>Goodbye(when leaving)</item>
+        <item>Goodbye(when sb leaves)</item>
+    </string-array>
+    <string-array name="titled_words_1_array">
+        <item>1.</item>
+    </string-array>
+
+    <string-array name="korean_words_2_array">
+        <item>오스트리아</item>
+        <item>폴란드</item>
+        <item>스페인</item>
+        <item>영국</item>
+        <item>대한민국</item>
+        <item>북한</item>
+        <item>미국</item>
+    </string-array>
+    <string-array name="match_words_2_array">
+        <item>오스트리아</item>
+        <item>폴란드</item>
+        <item>스페인</item>
+        <item>영국</item>
+        <item>대한민국</item>
+        <item>북한</item>
+        <item>미국</item>
+    </string-array>
+    <string-array name="transliterated_words_2_array">
+        <item>oseuteuria</item>
+        <item>pollandeu</item>
+        <item>seupein</item>
+        <item>yeongguk</item>
+        <item>daehanminguk</item>
+        <item>bukan</item>
+        <item>miguk</item>
+    </string-array>
+    <string-array name="translated_words_2_array">
+        <item>Austria</item>
+        <item>Poland</item>
+        <item>Spain</item>
+        <item>United Kingdom</item>
+        <item>South Korea</item>
+        <item>North Korea</item>
+        <item>United States</item>
+    </string-array>
+    <string-array name="titled_words_2_array">
+        <item>1.</item>
+    </string-array>
+
+    <string-array name="korean_words_3_array">
+        <item>하나, 둘, 셋</item>
+        <item>넷, 다섯, 여섯</item>
+        <item>일곱, 여덟, 아홉</item>
+        <item>열</item>
+    </string-array>
+    <string-array name="match_words_3_array">
+        <item>하나 둘 셋;1 2 3;123</item>
+        <item>넷 다섯 여섯;4 5 6;456</item>
+        <item>일곱 여덟 아홉;7 8 9;789</item>
+        <item>열;10</item>
+    </string-array>
+    <string-array name="transliterated_words_3_array">
+        <item>hana, dul, set</item>
+        <item>net, daseot, yeoseot</item>
+        <item>ilgop, yeodeol, ahop</item>
+        <item>yeol</item>
+    </string-array>
+    <string-array name="translated_words_3_array">
+        <item>One, two, three</item>
+        <item>Four, five, six</item>
+        <item>Seven, eight, nine</item>
+        <item>Ten</item>
+    </string-array>
+    <string-array name="korean_words_3_1_array">
+        <item>일, 이, 삼</item>
+        <item>사, 오, 육</item>
+        <item>칠, 팔, 구</item>
+        <item>십</item>
+        <item>백</item>
+        <item>천</item>
+        <item>만</item>
+    </string-array>
+    <string-array name="match_words_3_1_array">
+        <item>일 이 삼;1 2 3;123</item>
+        <item>사 오 육;4 5 6;456</item>
+        <item>칠 팔 구;7 8 9;789</item>
+        <item>십;10</item>
+        <item>백;맥;100;</item>
+        <item>천;1000</item>
+        <item>만;10000</item>
+    </string-array>
+    <string-array name="transliterated_words_3_1_array">
+        <item>il, i, sam</item>
+        <item>sa, o, yuk</item>
+        <item>chil, pal, gu</item>
+        <item>sib</item>
+        <item>baek</item>
+        <item>cheon</item>
+        <item>man</item>
+    </string-array>
+    <string-array name="translated_words_3_1_array">
+        <item>One, two, three</item>
+        <item>Four, five, six</item>
+        <item>Seven, eight, nine</item>
+        <item>Ten</item>
+        <item>Hundred</item>
+        <item>Thousand</item>
+        <item>Ten thousand</item>
+    </string-array>
+    <string-array name="titled_words_3_array">
+        <item>Native</item>
+        <item>Sino-Korean</item>
+    </string-array>
+
+    <string-array name="korean_words_4_array">
+        <item>가족</item>
+        <item>아버지</item>
+        <item>아빠</item>
+        <item>어머니</item>
+        <item>엄마</item>
+        <item>부모님</item>
+        <item>조부모님 </item>
+    </string-array>
+    <string-array name="match_words_4_array">
+        <item>가족</item>
+        <item>아버지</item>
+        <item>아빠</item>
+        <item>어머니</item>
+        <item>엄마</item>
+        <item>부모님</item>
+        <item>조부모님;전 부모님;전부 모닝;전무님;지금 부모님</item>
+    </string-array>
+    <string-array name="transliterated_words_4_array">
+        <item>gajok</item>
+        <item>abeoji</item>
+        <item>appa</item>
+        <item>eomeoni</item>
+        <item>eomma</item>
+        <item>bumonim</item>
+        <item>jobumonim</item>
+    </string-array>
+    <string-array name="translated_words_4_array">
+        <item>Family</item>
+        <item>Father</item>
+        <item>Dad</item>
+        <item>Mother</item>
+        <item>Mom</item>
+        <item>Parents</item>
+        <item>Grandparents</item>
+    </string-array>
+    <string-array name="titled_words_4_array">
+        <item>1.</item>
+    </string-array>
+
+    <string-array name="korean_words_5_array">
+        <item>주황색</item>
+        <item>노란색</item>
+        <item>파란색</item>
+        <item>빨간색</item>
+        <item>초록색</item>
+        <item>검정색</item>
+        <item>갈색</item>
+        <item>분홍색</item>
+        <item>보라색</item>
+        <item>흰색</item>
+    </string-array>
+    <string-array name="match_words_5_array">
+        <item>주황색</item>
+        <item>노란색</item>
+        <item>파란색</item>
+        <item>빨간색</item>
+        <item>초록색</item>
+        <item>검정색</item>
+        <item>갈색</item>
+        <item>분홍색</item>
+        <item>보라색</item>
+        <item>흰색</item>
+    </string-array>
+    <string-array name="transliterated_words_5_array">
+        <item>juhwangsaek</item>
+        <item>noransaek</item>
+        <item>paransaek</item>
+        <item>bbalgansaek</item>
+        <item>choroksaek</item>
+        <item>geomjeongsaek</item>
+        <item>galsaek</item>
+        <item>bunhongsaek</item>
+        <item>borasaek</item>
+        <item>heuinsaek</item>
+    </string-array>
+    <string-array name="translated_words_5_array">
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="titled_words_5_array">
+        <item>1.</item>
+    </string-array>
+
+    <string-array name="korean_words_6_array">
+        <item>새</item>
+        <item>물고기</item>
+        <item>개</item>
+        <item>고양이</item>
+        <item>말</item>
+        <item>소</item>
+        <item>코끼리</item>
+        <item>호랑이</item>
+        <item>뱀</item>
+        <item>닭</item>
+        <item>돼지</item>
+        <item>오리</item>
+        <item>물소</item>
+    </string-array>
+    <string-array name="match_words_6_array">
+        <item>새;3</item>
+        <item>물고기</item>
+        <item>개</item>
+        <item>고양이</item>
+        <item>말</item>
+        <item>소</item>
+        <item>코끼리</item>
+        <item>호랑이</item>
+        <item>뱀</item>
+        <item>닭</item>
+        <item>돼지</item>
+        <item>오리;허리;우리</item>
+        <item>물소</item>
+    </string-array>
+    <string-array name="transliterated_words_6_array">
+        <item>sae</item>
+        <item>mulgogi</item>
+        <item>kae</item>
+        <item>goyangi</item>
+        <item>mal</item>
+        <item>so</item>
+        <item>kokkili</item>
+        <item>horangi</item>
+        <item>paem</item>
+        <item>dalg</item>
+        <item>dwaeji</item>
+        <item>oli</item>
+        <item>mulso</item>
+    </string-array>
+    <string-array name="translated_words_6_array">
+        <item>bird</item>
+        <item>fish</item>
+        <item>dog</item>
+        <item>cat</item>
+        <item>horse</item>
+        <item>cow</item>
+        <item>elephant</item>
+        <item>tiger</item>
+        <item>snake</item>
+        <item>chicken</item>
+        <item>pig</item>
+        <item>duck</item>
+        <item>buffalo</item>
+    </string-array>
+    <string-array name="titled_words_6_array">
+        <item>1.</item>
+    </string-array>
+
+
+    <string-array name="korean_words_7_array">
+        <item>아침 식사</item>
+        <item>점심 식사</item>
+        <item>저녁 식사</item>
+        <item>빵</item>
+        <item>고기</item>
+        <item>수프</item>
+        <item>과일</item>
+        <item>샐러드</item>
+        <item>차</item>
+    </string-array>
+    <string-array name="match_words_7_array">
+        <item>아침 식사</item>
+        <item>점심 식사</item>
+        <item>저녁 식사</item>
+        <item>빵</item>
+        <item>고기</item>
+        <item>수프</item>
+        <item>과일</item>
+        <item>샐러드</item>
+        <item>차</item>
+    </string-array>
+    <string-array name="transliterated_words_7_array">
+        <item>achim sigsa</item>
+        <item>jeomsim sigsa</item>
+        <item>jeonyeog sigsa</item>
+        <item>ppang</item>
+        <item>gogi</item>
+        <item>supeu</item>
+        <item>gwail</item>
+        <item>saelleodeu</item>
+        <item>cha</item>
+    </string-array>
+    <string-array name="translated_words_7_array">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Bread</item>
+        <item>Meat</item>
+        <item>Soup</item>
+        <item>Fruit</item>
+        <item>Salad</item>
+        <item>Tea</item>
+    </string-array>
+    <string-array name="titled_words_7_array">
+        <item>1.</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string name="historyText">
+        The Korean alphabet, known as Hangul (Hangeul) in South Korea, is a writing system for the Korean language created by King Sejong the Great in 1443 The letters for the five basic consonants reflect the shape of the speech organs used to pronounce them, and they are systematically modified to indicate phonetic features. Similarly, the vowel letters are systematically modified for related sounds, making Hangul a featural writing system.
+    </string>
+
+
+</resources>

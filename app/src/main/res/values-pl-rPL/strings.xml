@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version">Wersja beta\n(więcej w najbliższej aktualizacji)</string>
+    <string name="consonants">Spółgłoski</string>
+    <string name="vowels">Samogłoski</string>
+    <string name="syllables">Sylaby</string>
+    <string name="history">Trochę historii</string>
+
+    <string name="greetings">Uprzejmości</string>
+    <string name="numbers">Liczby</string>
+    <string name="countries">Kraje</string>
+    <string name="family">Rodzina</string>
+    <string name="colors">Kolory</string>
+    <string name="animals">Zwierzęta</string>
+    <string name="food">Jedzenie</string>
+
+    <string name="pronunciation_mic_label">Kliknij i powiedz…</string>
+    <string name="general">Ogólne</string>
+    <string name="language">Język</string>
+    <string name="default_language">pl</string>
+    <string name="about">O aplikacji</string>
+    <string name="licenses">Licencje</string>
+
+    <string name="error_network_timeout">Network timeout</string>
+    <string name="error_network">Ta funkcja wymaga połączenia z internetem</string>
+    <string name="error_audio">Audio error</string>
+    <string name="error_server">Błąd serwera</string>
+    <string name="error_client">Client error</string>
+    <string name="error_speech_timeout">Speech timeout</string>
+    <string name="error_recognizer_busy">Busy recognizer</string>
+    <string name="error_insufficient_permissions">Insufficient permissions</string>
+
+    <string name="bar_title_writing">Pisanie</string>
+    <string name="bar_title_pronunciation" >Wymowa</string>
+    <string name="bar_title_settings">Ustawienia</string>
+
+    <string name="single">Pojedyncze</string>
+    <string name="doubleStr">Podwójne</string>
+    <string name="complex">Złożone</string>
+
+    <string name="learn_uppercase">></string>
+
+    <string name="hanja_label">Znaki chińskie\nHanja</string>
+
+    <string name="hanja1">1.</string>
+    <string name="hanja2">2.</string>
+    <string name="hanja3">3. Liczby</string>
+
+    <string name="korean_numbers">Rodzime koreańskie</string>
+
+    <string-array name="hanja1">
+        <item>大;대;duży</item>
+        <item>小;소;mały</item>
+        <item>中;중;środkowy</item>
+        <item>山;산;góra</item>
+        <item>門;문;drzwi</item>
+        <item>入;입;wejście/wchodzić</item>
+        <item>出;출;wyjście/wychodzić</item>
+        <item>口;구;usta/otwarcie</item>
+        <item>上;상;ponad/na górze</item>
+        <item>下;하;poniżej/na dole</item>
+    </string-array>
+
+    <string-array name="hanja2">
+        <item>日;일;dzień</item>
+        <item>月;월;miesiąc</item>
+        <item>年;년;rok</item>
+        <item>內;내;wewnątrz</item>
+        <item>外;외;na zewnątrz</item>
+        <item>人;인;osoba/człowiek</item>
+        <item>子;자;dziecko</item>
+        <item>父;부;ojciec</item>
+        <item>母;모;matka</item>
+        <item>男;남;mężczyzna</item>
+        <item>女;여/녀;kobieta</item>
+    </string-array>
+
+    <string-array name="hanja3">
+        <item>一;일;jeden</item>
+        <item>二;이;dwa</item>
+        <item>三;삼;trzy</item>
+        <item>四;사;cztery</item>
+        <item>五;오;pięć</item>
+        <item>六;육/륙;sześć</item>
+        <item>七;칠;siedem</item>
+        <item>八;팔;osiem</item>
+        <item>九;구;dziewięć</item>
+        <item>十;십;dziesięć</item>
+    </string-array>
+
+    <string name="action_transliteration">Transliteracja</string>
+    <string name="translation">dzień dobry/cześć</string>
+    <string name="slower">wolniej</string>
+
+    <string-array name="translated_words_1_array">
+        <item>Cześć</item>
+        <item>Miło cię poznać</item>
+        <item>Dziękuję</item>
+        <item>Jak się masz?</item>
+        <item>Przepraszam / Chwileczkę</item>
+        <item>Przepraszam (przypadek)</item>
+        <item>Przepraszam (wybaczenie)</item>
+        <item>Proszę</item>
+        <item>Smacznego</item>
+        <item>Do widzenia(przy wychodzeniu)</item>
+        <item>Do widzenia(gdy ktoś wychodzi)</item>
+    </string-array>
+
+    <string-array name="translated_words_2_array">
+        <item>Austria</item>
+        <item>Polska</item>
+        <item>Hiszpania</item>
+        <item>Wielka Brytania</item>
+        <item>Korea Południowa</item>
+        <item>Korea Północna</item>
+        <item>Stany zjednoczone</item>
+    </string-array>
+
+    <string-array name="translated_words_3_array">
+        <item>Jeden, dwa, trzy</item>
+        <item>Cztery, pięć, sześć</item>
+        <item>Siedem, osiem, dziewięć</item>
+        <item>Dziesięć</item>
+    </string-array>
+    <string-array name="translated_words_3_1_array">
+        <item>Jeden, Dwa, Trzy</item>
+        <item>Cztery, Pięć, Sześć</item>
+        <item>Siedem, Osiem, Dziewięć</item>
+        <item>Dziesięć</item>
+        <item>Sto</item>
+        <item>Tysiąc</item>
+        <item>Dziesięć tysięcy</item>
+    </string-array>
+    <string-array name="titled_words_3_array">
+        <item>Rodzime</item>
+        <item>Sinokoreańskie</item>
+    </string-array>
+
+    <string-array name="translated_words_4_array">
+        <item>Rodzina</item>
+        <item>Ojciec</item>
+        <item>Tata</item>
+        <item>Matka</item>
+        <item>Mama</item>
+        <item>Rodzice</item>
+        <item>Dziadkowie</item>
+    </string-array>
+
+    <string-array name="translated_words_5_array">
+        <item>Pomarańczowy</item>
+        <item>Żółty</item>
+        <item>Niebieski</item>
+        <item>Czerwony</item>
+        <item>Zielony</item>
+        <item>Czarny</item>
+        <item>Brązowy</item>
+        <item>Różowy</item>
+        <item>Fioletowy</item>
+        <item>Biały</item>
+    </string-array>
+
+    <string-array name="translated_words_6_array">
+        <item>Ptak</item>
+        <item>Ryba</item>
+        <item>Pies</item>
+        <item>Kot</item>
+        <item>Koń</item>
+        <item>Krowa</item>
+        <item>Słoń</item>
+        <item>Tygrys</item>
+        <item>Wąż</item>
+        <item>Kura</item>
+        <item>Świnia</item>
+        <item>Kaczka</item>
+        <item>Bawół </item>
+    </string-array>
+
+    <string-array name="translated_words_7_array">
+        <item>Śniadanie</item>
+        <item>Lunch</item>
+        <item>Obiad/Kolacja</item>
+        <item>Chleb</item>
+        <item>Mięso</item>
+        <item>Zupa</item>
+        <item>Owoce</item>
+        <item>Sałatka</item>
+        <item>Herbata</item>
+    </string-array>
+
+    <string name="historyText">
+        Hangul – alfabet koreański wynaleziony w XV wieku przez Sejonga Wielkiego. Składa się z 24 znaków: 14 spółgłosek i 10 samogłosek. Jest jednym z niewielu alfabetów, które zostały stworzone sztucznie, a nie wyewoluowały z hieroglifów czy ideogramów, jak to się działo w przypadku większości współczesnych pism. Każda sylaba zapisywana jest jako blok, na polu kwadratu, składający się ze znaków alfabetu. Słowa w tym alfabecie zapisywać można poziomo lub pionowo.
+    </string>
+
+</resources>

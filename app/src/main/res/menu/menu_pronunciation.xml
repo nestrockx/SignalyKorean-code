@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.onehundredtwo.signaly.PronunciationActivity">
+    <item
+        android:id="@+id/action_transliteration"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_transliteration_off"
+        android:title="@string/action_transliteration"
+        app:showAsAction="ifRoom" />
+</menu>

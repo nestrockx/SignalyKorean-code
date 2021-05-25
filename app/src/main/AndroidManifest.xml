@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onehundredtwo.signaly">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/about">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2244378897148865~9865819918" />
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/SplashScreenTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PronunciationActivity"
+            android:label="@string/greetings"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".HanjaWritingActivity"
+            android:label="@string/hanja"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".HanjaListActivity"
+            android:label="@string/hanja"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".WordsListActivity"
+            android:label=""
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".HangulWritingActivity"
+            android:label="@string/hangul"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/history"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".SyllablesListActivity"
+            android:label="@string/syllables"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".VowelsListActivity"
+            android:label="@string/vowels"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ConsonantsListActivity"
+            android:label="@string/consonants"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onehundredtwo.signaly.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
