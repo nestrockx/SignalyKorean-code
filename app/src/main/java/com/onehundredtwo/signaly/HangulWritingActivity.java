@@ -31,8 +31,6 @@ import java.util.Locale;
 
 public class HangulWritingActivity extends AppCompatActivity {
 
-    private InterstitialAd interstitialAd;
-
     private Menu menu;
 
     private int groupPosition = 0;
@@ -62,11 +60,6 @@ public class HangulWritingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hangul_writing_learn);
         getWindow().setEnterTransition(null);
-
-        interstitialAd = new InterstitialAd(this);
-        interstitialAd.setAdUnitId("ca-app-pub-2244378897148865/4918306066");
-        AdRequest adRequest = new AdRequest.Builder().build();
-        interstitialAd.loadAd(adRequest);
 
 
         letterToWriteTextView = findViewById(R.id.characterToWriteTextView);
@@ -287,7 +280,7 @@ public class HangulWritingActivity extends AppCompatActivity {
             }
         }
         if (id == android.R.id.home) {
-            showAdAndClose();
+            //showAdAndClose();
         }
 
         return super.onOptionsItemSelected(item);
@@ -295,28 +288,7 @@ public class HangulWritingActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        showAdAndClose();
-    }
-
-    private void showAdAndClose() {
-        if (interstitialAd.isLoaded()) {
-            if (AdCounter.value.incrementAndGet() % 2 == 0) {
-                interstitialAd.show();
-                interstitialAd.setAdListener(new AdListener() {
-                    @Override
-                    public void onAdClosed() {
-                        super.onAdClosed();
-                        finish();
-                    }
-                });
-            }
-            else {
-                finish();
-            }
-        }
-        else {
-            finish();
-        }
+        //showAdAndClose();
     }
 
 
