@@ -45,8 +45,6 @@ import java.util.Locale;
 
 public class PronunciationActivity extends AppCompatActivity implements RecognitionListener {
 
-    private InterstitialAd interstitialAd;
-
     private boolean speechError = false;
     private boolean testMode;
     private int childPosition;
@@ -125,12 +123,6 @@ public class PronunciationActivity extends AppCompatActivity implements Recognit
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pronunciation);
         getWindow().setEnterTransition(null);
-
-
-        interstitialAd = new InterstitialAd(this);
-        interstitialAd.setAdUnitId("ca-app-pub-2244378897148865/2181473841");
-        AdRequest adRequest = new AdRequest.Builder().build();
-        interstitialAd.loadAd(adRequest);
 
 
         String[] permissions = new String[]{Manifest.permission.RECORD_AUDIO};
@@ -355,24 +347,7 @@ public class PronunciationActivity extends AppCompatActivity implements Recognit
 
 
     private void showAdAndClose() {
-        if (interstitialAd.isLoaded()) {
-            if (AdCounter.value.incrementAndGet() % 2 == 0) {
-                interstitialAd.show();
-                interstitialAd.setAdListener(new AdListener() {
-                    @Override
-                    public void onAdClosed() {
-                        super.onAdClosed();
-                        finish();
-                    }
-                });
-            }
-            else {
-                finish();
-            }
-        }
-        else {
             finish();
-        }
     }
 
 

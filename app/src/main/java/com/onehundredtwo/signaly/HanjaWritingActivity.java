@@ -260,9 +260,7 @@ public class HanjaWritingActivity extends AppCompatActivity {
     }
 
     private void showAdAndClose() {
-
             finish();
-
     }
 
 
