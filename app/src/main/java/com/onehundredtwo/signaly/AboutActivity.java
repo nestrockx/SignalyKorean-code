@@ -83,8 +83,4 @@ public class AboutActivity extends AppCompatActivity {
         return context.createConfigurationContext(configuration);
     }
 
-
-
-
-
 }

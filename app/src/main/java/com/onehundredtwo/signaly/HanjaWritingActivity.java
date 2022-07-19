@@ -31,8 +31,6 @@ import java.util.Locale;
 
 public class HanjaWritingActivity extends AppCompatActivity {
 
-    private InterstitialAd interstitialAd;
-
     private Menu menu;
 
     private int groupPosition = 0;
@@ -62,10 +60,8 @@ public class HanjaWritingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hanja_writing_learn);
         getWindow().setEnterTransition(null);
 
-        interstitialAd = new InterstitialAd(this);
-        interstitialAd.setAdUnitId("ca-app-pub-2244378897148865/4918306066");
+
         AdRequest adRequest = new AdRequest.Builder().build();
-        interstitialAd.loadAd(adRequest);
 
 
         characterToWriteTextView = findViewById(R.id.characterToWriteTextView);
@@ -264,24 +260,9 @@ public class HanjaWritingActivity extends AppCompatActivity {
     }
 
     private void showAdAndClose() {
-        if (interstitialAd.isLoaded()) {
-            if (AdCounter.value.incrementAndGet() % 2 == 0) {
-                interstitialAd.show();
-                interstitialAd.setAdListener(new AdListener() {
-                    @Override
-                    public void onAdClosed() {
-                        super.onAdClosed();
-                        finish();
-                    }
-                });
-            }
-            else {
-                finish();
-            }
-        }
-        else {
+
             finish();
-        }
+
     }
 
 
